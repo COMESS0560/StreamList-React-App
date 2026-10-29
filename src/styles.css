@@ -44,3 +44,20 @@ h3 { font-size: 18px; margin: 11px 0 7px; }
 .footer { color: #91a5bd; padding: 22px; text-align: center; border-top: 1px solid #2b3957; font-size: 12px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
 @media (max-width: 650px) { .header-inner { flex-direction: column; align-items: flex-start; padding: 20px; } .nav-links { width: 100%; } .nav-link { padding: 9px 11px; } .hero { padding: 45px 0 35px; } .input-card { flex-direction: column; padding: 24px; } .feature-grid { grid-template-columns: 1fr; } .placeholder-card { margin-top: 40px; } }
+
+/* Week 2: interactive watchlist */
+.watchlist {padding:28px 34px;margin-top:24px;}
+.list-heading {display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;}
+.list-heading p {color:#acbdd5;margin:0;}
+.filter-buttons,.movie-actions,.edit-form {display:flex;flex-wrap:wrap;gap:8px;}
+.filter,.secondary,.danger {padding:10px 13px;background:#263a57;color:#eaf4ff;border:1px solid #526581;}
+.active-filter {background:#67dfee;color:#092038;}
+.danger {background:#563040;color:#ffe3e3;}
+.movie-list {list-style:none;padding:0;margin:22px 0 0;}
+.movie-item {padding:15px 0;border-top:1px solid #354863;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;}
+.movie-name {font-size:17px;font-weight:650;display:flex;gap:10px;}
+.complete .movie-name span {text-decoration:line-through;color:#91a9bd;}
+.edit-form {flex:1;}
+.edit-form input {min-width:160px;padding:10px;}
+.empty-state {padding:26px;text-align:center;color:#b5c5da;}
+@media(max-width:650px){.watchlist{padding:22px}.movie-actions{width:100%}.movie-actions button{flex:1}.list-heading{align-items:flex-start}}

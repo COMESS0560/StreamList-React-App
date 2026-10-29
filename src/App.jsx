@@ -18,7 +18,7 @@ export default function App() {
           <Route path="*" element={<StreamList />} />
         </Routes>
       </main>
-      <footer className="footer">StreamList • React App Setup — Part 1</footer>
+      <footer className="footer">StreamList • Week 2 Interactive Demo • No account or payment processing</footer>
     </div>
   );
 }
