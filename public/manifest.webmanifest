@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "StreamList \u2014 Movie Night Planner",
+  "short_name": "StreamList",
+  "description": "Discover movies, save a watchlist, and plan movie-night snacks.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#10182b",
+  "theme_color": "#182848",
+  "icons": [
+    {
+      "src": "/icons/streamlist-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/streamlist-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/streamlist-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
